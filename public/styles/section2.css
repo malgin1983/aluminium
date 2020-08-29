@@ -1,0 +1,14 @@
+
+/*********SECTION2****************/
+
+.section2 {
+    width: 100vw;
+    height: 30vh;
+    padding: 2rem 8rem;
+    background-image: url('../img/newYork.jpg');
+    background-attachment: fixed; /* Фон страницы фиксируется */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+

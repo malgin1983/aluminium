@@ -1,0 +1,55 @@
+@import "slider.css";
+@import "navigation.css";
+@import "header.css";
+@import "section1.css";
+@import "section2.css";
+@import "section3.css";
+@import "section4.css";
+@import "section5.css";
+@import "product-card.css";
+@import "product-section1.css";
+@import "product-slider.css";
+
+html{
+   font-size: 16px;
+}
+
+@media screen and (min-width: 1600px) {
+   html{
+      font-size: 50px;
+   }
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   width: 100vw;
+}
+
+
+.footer {
+   font-family: 'Poiret One', cursive;
+   font-size: 2rem;
+   border-top: 1px solid gray;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100vw;
+   box-sizing: border-box;
+   padding: 24px;
+}
+
+
+.footer__link {
+   font-family: 'Poiret One', cursive;
+   font-size: 1rem;
+   color: black;
+   font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+   .footer {
+      font-size: 1rem;
+   }
+}

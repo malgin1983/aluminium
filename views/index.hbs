@@ -1,0 +1,73 @@
+  <div class="slider-m">
+    <div class="slier__container">
+      <img src="img/slider1.jpg" class="slide" alt="slide1">
+      <img src="img/left.svg" class="left-arrow" alt="slide3">
+      <img src="img/right.svg" class="right-arrow" alt="slide3">
+    </div>
+
+  </div>
+
+
+  <div class="section1">
+      <h1 class="section1__head">КОМПАНИЯ</h1>
+        <p class="section1__text">
+          <b>"Окна Премимум Класс"</b> занимается
+          производством и остеклением промышленных
+            и гражданских объектов <b> 2008г.</b> </br> С этого момента компания прошла сложный
+          путь развития, от маленького цеха по
+          изготовлению окон из ПВХ, до премиального
+          партнера компании Schüco.
+          Вся продукция наших производств выпускается на лучшем в Европе оборудовании - <b>URBAN, Federhenn, Рerticiа.</b>
+        </p>
+  </div> 
+  <div class="section2"></div>
+
+  <div class="section3">
+      <div class="section3__container-img">
+            <img class="section3__img" src="img/section3.jpeg" alt="">
+      </div>
+      <div class="section3__container-text">
+          <div class="section3__text-block">
+              <h3  class="section3__text-block__header" >Услуги</h3>
+              <span class="section3__text-block__text">
+                  Мы выполняем фасадные работы любой сложности - от создания проекта, до монтажа и готовых конструкций.<br>
+                  <br>
+                  Также мы проводим техниченское обслуживание объектов с остеклением из алюмиевых конструкций любой сложности.<br>
+                  <br>
+                  Необходимо обслужевание остекления из алюминия? Специалисты нашей компании
+                  смогут выполнить обустройство и благоустройство территорий.
+              </span>
+          </div>
+      </div>
+  </div>
+  <div class="section4">
+      <div class="section4__img-container">
+          <img id="business" class="section4__img" src="img/patio9.jpg" alt="">
+          <button class="section4__btn">Для дома</button>
+      </div>
+      <div class="section4__img-container">
+          <img class="section4__img" src="img/peregorodka1.jpg" alt="">
+          <button id= "home" class="section4__btn">Для бизнеса</button>
+      </div>
+  </div>
+  <div class="section5">
+      <div class="section5__container-text">
+          <div class="section5__text-block">
+              <h3  class="section5__text-block__header" >Работы по алюминевым фасадам</h3>
+              <span class="section5__text-block__text">
+                  Монтаж холодных и теплых стоично-ригельных фасадов в Москве и в ЦФО<br>
+                  <br>
+                  Изготовление и установка фасадов из алюминевых кассет любого уровня сложности<br>
+                  <br>
+                  Спайдерное остекление фасадов<br>
+                  <br>
+                  Остекление из алюминевых рам в Москве и Московской области<br>
+              </span>
+          </div>
+      </div>
+      <div class="section5__container-img">
+          {{#each arrayImg}}
+              <img class="section5__slider-img"   alt="img-slider"  src={{img}}>
+          {{/each}}
+      </div>
+  </div>

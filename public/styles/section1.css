@@ -1,0 +1,37 @@
+/****************SECTION1*************/
+
+.section1 {
+    width: 100vw;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #37A8BF;
+    color: white;
+}
+
+.section1__head {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+}
+
+.section1__text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family: 'Poiret One', cursive;
+    padding-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .section1__head  {
+        font-size: 1rem;
+    }
+    .section1__text {
+        font-size: 1rem;
+    }
+
+}
+

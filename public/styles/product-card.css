@@ -1,0 +1,27 @@
+.card {
+    width: 40vw;
+    height: 80vh;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover {
+    background-color: lightgray;
+}
+
+.card__img {
+    width: 30vw;
+    min-height: 50%;
+    max-height: 70vh;
+    padding: 2vh;
+}
+
+.card__text-block__header {
+    text-align: center;
+}
+
+.card__text-block__text {
+    font-size: 2vh;
+}

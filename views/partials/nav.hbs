@@ -1,0 +1,60 @@
+  <div class="navbar">
+    <ul class="navbar__list">
+       {{#if isMain}}
+       <li class="navbar__list-item">
+         <a class="navbar__list-item-link navbar__list-item-active" href="/">Главная</a>
+       </li>
+       {{else}}
+         <li class="navbar__list-item">
+         <a class="navbar__list-item-link" href="/">Главная </a>
+       </li>
+       {{/if}}
+     {{#if isProduct}}
+       <li class="navbar__list-item navbar__list-item-active">
+         <a class="navbar__list-item-link" href="/product">Продукция</a>
+       </li>
+       {{else}}
+       <li class="navbar__list-item">
+         <a class="navbar__list-item-link" href="/product">Продукция</a>
+       </li>
+       {{/if}}
+     {{#if isGallery}}
+       <li class="navbar__list-item navbar__list-item-active">
+         <a class="navbar__list-item-link " href="/gallery">Галерея</a>
+       </li>
+       {{else}}
+       <li class="navbar__list-item">
+         <a class="navbar__list-item-link" href="/gallery">Галерея</a>
+       </li>
+       {{/if}}
+     {{#if isContact}}
+       <li class="navbar__list-item navbar__list-item-active">
+         <a class="navbar__list-item-link" href="/contact">Контакты</a>
+       </li>
+       {{else}}
+       <li class="navbar__list-item">
+         <a class="navbar__list-item-link" href="/contact">Контакты</a>
+       </li>
+       {{/if}}
+    </ul>
+    <div class="navbar__btn">
+        <span class="hamburger"></span>
+    </div>
+      <div class="mobile__nav">
+          <ul class="mobile__nav-list" >
+              <li class="mobile__nav-list-item">
+                  <a class="mobile__nav-link" href="/">Главная </a>
+              </li>
+              <li class="mobile__nav-list-item">
+                  <a class="mobile__nav-link" href="/product">Продукция</a>
+              </li>
+              <li class="mobile__nav-list-item">
+                  <a class="mobile__nav-link" href="/gallery">Галерея</a>
+              </li>
+              <li class="mobile__nav-list-item">
+                  <a class="mobile__nav-link" href="/contact">Контакты</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+   
