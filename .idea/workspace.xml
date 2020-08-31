@@ -17,17 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4bcd5ffc-436f-40f8-94dc-8f6069386195" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/fasad2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/build.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/building.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/dorozhnaya (копия).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/fasad3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/fasad3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/fasad4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/fasad4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/york1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/fasad2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/fasad2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/scripts/slider-product.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/slider-product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/product-section1.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/product-section1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/section5.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/section5.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/product.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/product.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +61,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -111,6 +103,7 @@
       <workItem from="1598715570399" duration="221000" />
       <workItem from="1598726795534" duration="9816000" />
       <workItem from="1598815287981" duration="3601000" />
+      <workItem from="1598902813461" duration="3501000" />
     </task>
     <task id="LOCAL-00001" summary="Created first part">
       <created>1598732781240</created>
@@ -119,7 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1598732781240</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created page product">
+      <created>1598902974050</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598902974050</updated>
+    </task>
+    <task id="LOCAL-00003" summary="created page product">
+      <created>1598902996134</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598902996134</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +160,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="created main page" />
     <MESSAGE value="Created first part" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created first part" />
+    <MESSAGE value="created page product" />
+    <option name="LAST_COMMIT_MESSAGE" value="created page product" />
   </component>
   <component name="WindowStateProjectService">
     <state x="239" y="393" width="1431" height="317" key="#Template_Data_Languages" timestamp="1598212242023">
@@ -189,15 +197,15 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1870" height="278" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1598130372971" />
-    <state x="367" y="282" width="1357" height="755" key="SettingsEditor" timestamp="1598815435783">
+    <state x="367" y="282" width="1357" height="755" key="SettingsEditor" timestamp="1598903206977">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="367" y="282" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1598815435783" />
-    <state x="367" y="282" width="1357" height="755" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1598731961148" />
-    <state x="555" y="289" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1598733562806">
+    <state x="367" y="282" width="1357" height="755" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1598903206977" />
+    <state x="555" y="289" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1598903008400">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="524" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1598733562806" />
+    <state x="555" y="289" width="800" height="524" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1598903008400" />
     <state x="100" y="127" width="1720" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598186923543">
       <screen x="0" y="27" width="3840" height="1053" />
     </state>
