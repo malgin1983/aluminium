@@ -2,7 +2,6 @@
 /*********SECTION3****************/
 
 .section3 {
-    width: 100vw;
     display: flex;
     flex-wrap: wrap;
     background-color: #32413C;

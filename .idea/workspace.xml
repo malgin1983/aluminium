@@ -6,6 +6,15 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
@@ -16,10 +25,33 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4bcd5ffc-436f-40f8-94dc-8f6069386195" name="Default Changelist" comment="">
+    <list default="true" id="ad837bae-9171-48e9-92f7-007bc2cc2cf1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/fasad2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/fasad2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/fasad1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/fasad1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/patio21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/patio23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/patio32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/patio36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/patio38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/patio46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/peregorodka1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/peregorodka2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/peregorodka4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/zhuravlik (копия).jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/scripts/slider-product.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/slider-product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/navigation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/product-section1.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/product-section1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/product-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/product-slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/section1.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/section1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/section2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/section2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/section3.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/section3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/section4.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/section4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/section5.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/section5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/header.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/header.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/product.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/product.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,106 +59,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1fsC8e5DL6EXj21oWlRJwx8TqGD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1h0KOhAbA1AWjAHHlWjIUVVSeY0" />
   <component name="ProjectViewState">
-    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/scripts" />
-      <recent name="$PROJECT_DIR$/public/styles" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4bcd5ffc-436f-40f8-94dc-8f6069386195" name="Default Changelist" comment="" />
-      <created>1596997256925</created>
+      <changelist id="ad837bae-9171-48e9-92f7-007bc2cc2cf1" name="Default Changelist" comment="" />
+      <created>1599142538604</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1596997256925</updated>
-      <workItem from="1596997258736" duration="646000" />
-      <workItem from="1597435739140" duration="1952000" />
-      <workItem from="1597475549315" duration="25991000" />
-      <workItem from="1597587189046" duration="3604000" />
-      <workItem from="1597599902737" duration="4843000" />
-      <workItem from="1597688692919" duration="1689000" />
-      <workItem from="1597693472154" duration="2921000" />
-      <workItem from="1597780230126" duration="646000" />
-      <workItem from="1597864960000" duration="1701000" />
-      <workItem from="1597950553216" duration="493000" />
-      <workItem from="1598032693342" duration="11538000" />
-      <workItem from="1598120595710" duration="4959000" />
-      <workItem from="1598130393452" duration="1067000" />
-      <workItem from="1598172831213" duration="697000" />
-      <workItem from="1598181570100" duration="11360000" />
-      <workItem from="1598208798060" duration="6332000" />
-      <workItem from="1598295345943" duration="3635000" />
-      <workItem from="1598387110061" duration="3715000" />
-      <workItem from="1598468606920" duration="3237000" />
-      <workItem from="1598557043505" duration="620000" />
-      <workItem from="1598707581312" duration="680000" />
-      <workItem from="1598708318862" duration="668000" />
-      <workItem from="1598715570399" duration="221000" />
-      <workItem from="1598726795534" duration="9816000" />
-      <workItem from="1598815287981" duration="3601000" />
-      <workItem from="1598902813461" duration="3501000" />
+      <updated>1599142538604</updated>
+      <workItem from="1599142539671" duration="12916000" />
     </task>
-    <task id="LOCAL-00001" summary="Created first part">
-      <created>1598732781240</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1598732781240</updated>
-    </task>
-    <task id="LOCAL-00002" summary="created page product">
-      <created>1598902974050</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1598902974050</updated>
-    </task>
-    <task id="LOCAL-00003" summary="created page product">
-      <created>1598902996134</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1598902996134</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,75 +112,27 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="created main page" />
-    <MESSAGE value="Created first part" />
-    <MESSAGE value="created page product" />
-    <option name="LAST_COMMIT_MESSAGE" value="created page product" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="239" y="393" width="1431" height="317" key="#Template_Data_Languages" timestamp="1598212242023">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="239" y="393" width="1431" height="317" key="#Template_Data_Languages/0.27.1920.1053@0.27.1920.1053" timestamp="1598212242023" />
-    <state x="582" y="352" width="746" height="394" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598128572572">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="582" y="352" width="746" height="394" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1598128572572" />
-    <state x="872" y="301" width="524" height="500" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598193168824">
+    <state x="100" y="127" width="1720" height="855" key="DiffContextDialog" timestamp="1599163270906">
       <screen x="0" y="27" width="3840" height="1053" />
     </state>
-    <state x="693" y="301" width="524" height="500" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1598098720485" />
-    <state x="872" y="301" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.3840.1053@0.27.3840.1053" timestamp="1598193168824" />
-    <state x="710" y="311" width="511" height="507" key="FileChooserDialogImpl" timestamp="1598727124726">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="710" y="311" width="511" height="507" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1598727124726" />
-    <state width="1870" height="278" key="GridCell.Tab.0.bottom" timestamp="1598130372971">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1870" height="278" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1598130372971" />
-    <state width="1870" height="278" key="GridCell.Tab.0.center" timestamp="1598130372970">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1870" height="278" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1598130372970" />
-    <state width="1870" height="278" key="GridCell.Tab.0.left" timestamp="1598130372970">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1870" height="278" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1598130372970" />
-    <state width="1870" height="278" key="GridCell.Tab.0.right" timestamp="1598130372971">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1870" height="278" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1598130372971" />
-    <state x="367" y="282" width="1357" height="755" key="SettingsEditor" timestamp="1598903206977">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="367" y="282" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1598815435783" />
-    <state x="367" y="282" width="1357" height="755" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1598903206977" />
-    <state x="555" y="289" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1598903008400">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="555" y="289" width="800" height="524" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1598903008400" />
-    <state x="100" y="127" width="1720" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598186923543">
+    <state x="100" y="127" width="1720" height="855" key="DiffContextDialog/0.27.3840.1053@0.27.3840.1053" timestamp="1599163270906" />
+    <state x="693" y="354" width="511" height="515" key="FileChooserDialogImpl" timestamp="1599159513948">
       <screen x="0" y="27" width="3840" height="1053" />
     </state>
-    <state x="100" y="127" width="1720" height="853" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.3840.1053@0.27.3840.1053" timestamp="1598186923543" />
-    <state x="622" y="272" width="684" height="566" key="find.popup" timestamp="1598815659857">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="622" y="272" width="684" height="566" key="find.popup/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1598815659857" />
-    <state x="622" y="272" width="684" height="562" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1598297531201" />
-    <state x="1248" y="255" key="run.anything.popup" timestamp="1598188942156">
+    <state x="693" y="354" width="511" height="515" key="FileChooserDialogImpl/0.27.3840.1053@0.27.3840.1053" timestamp="1599159513948" />
+    <state x="413" y="247" key="SettingsEditor" timestamp="1599159789076">
       <screen x="0" y="27" width="3840" height="1053" />
     </state>
-    <state x="624" y="255" key="run.anything.popup/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1597522910716" />
-    <state x="1248" y="255" key="run.anything.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1598188942156" />
-    <state x="603" y="259" width="711" height="678" key="search.everywhere.popup" timestamp="1598733472169">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="413" y="247" key="SettingsEditor/0.27.3840.1053@0.27.3840.1053" timestamp="1599159789076" />
+    <state x="100" y="127" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599163693959">
+      <screen x="0" y="27" width="3840" height="1053" />
     </state>
-    <state x="603" y="259" width="711" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1598733472169" />
+    <state x="100" y="127" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.3840.1053@0.27.3840.1053" timestamp="1599163693959" />
+    <state x="595" y="131" width="729" height="843" key="find.popup" timestamp="1599145897763">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state x="595" y="131" width="729" height="843" key="find.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1599145897763" />
   </component>
 </project>
