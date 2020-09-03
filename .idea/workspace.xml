@@ -25,35 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad837bae-9171-48e9-92f7-007bc2cc2cf1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/fasad1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/fasad1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/patio21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/patio23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/patio32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/patio36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/patio38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/patio46.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/peregorodka1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/peregorodka2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/peregorodka4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/zhuravlik (копия).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/slider-product.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/slider-product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/product-section1.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/product-section1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/product-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/product-slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/section1.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/section1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/section2.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/section2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/section3.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/section3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/section4.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/section4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/section5.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/section5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/header.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/header.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/product.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/product.hbs" afterDir="false" />
-    </list>
+    <list default="true" id="ad837bae-9171-48e9-92f7-007bc2cc2cf1" name="Default Changelist" comment="+2 slider to product" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,8 +55,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599142538604</updated>
-      <workItem from="1599142539671" duration="12916000" />
+      <workItem from="1599142539671" duration="13257000" />
     </task>
+    <task id="LOCAL-00001" summary="+2 slider to product">
+      <created>1599168981869</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599168981869</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +93,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="+2 slider to product" />
+    <option name="LAST_COMMIT_MESSAGE" value="+2 slider to product" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="100" y="127" width="1720" height="855" key="DiffContextDialog" timestamp="1599163270906">
       <screen x="0" y="27" width="3840" height="1053" />
@@ -126,6 +110,10 @@
       <screen x="0" y="27" width="3840" height="1053" />
     </state>
     <state x="413" y="247" key="SettingsEditor/0.27.3840.1053@0.27.3840.1053" timestamp="1599159789076" />
+    <state x="555" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1599168991056">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state x="555" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.3840.1053@0.27.3840.1053" timestamp="1599168991056" />
     <state x="100" y="127" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599163693959">
       <screen x="0" y="27" width="3840" height="1053" />
     </state>
