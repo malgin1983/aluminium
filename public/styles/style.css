@@ -6,9 +6,10 @@
 @import "section3.css";
 @import "section4.css";
 @import "section5.css";
-@import "product-card.css";
+@import "cards.css";
 @import "product-section1.css";
 @import "product-slider.css";
+@import "gallery.css";
 
 body {
    font-size: 16px;
@@ -20,7 +21,7 @@ body {
 
 .footer {
    font-family: 'Poiret One', cursive;
-   font-size: 2rem;
+   font-size: 1vw;
    border-top: 1px solid gray;
    display: flex;
    flex-direction: column;

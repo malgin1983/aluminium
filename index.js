@@ -43,11 +43,11 @@ app.use('/contact', homeContact)
 const PORT = config.get('port') || 80
 async function start() {
   try {
-    await mongoose.connect(config.get('mongoUri'), {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      useCreateIndex: true
-    })
+    // await mongoose.connect(config.get('mongoUri'), {
+    //   useNewUrlParser: true,
+    //   useUnifiedTopology: true,
+    //   useCreateIndex: true
+    // })
     app.listen(PORT, () => console.log(`База MONOGO подключена, сервер запущен по http://localhost:${PORT}`))
   } catch (e) {
     console.log('Ошибка  с сервера - ', e.message)

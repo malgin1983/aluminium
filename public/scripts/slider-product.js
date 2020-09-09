@@ -6,6 +6,11 @@ const slides3 = document.getElementsByClassName("doors");
 const dots3 = document.getElementsByClassName("dots__doors");
 const slides4 = document.getElementsByClassName("partitions");
 const dots4 = document.getElementsByClassName("dots__partitions");
+const slides5 = document.getElementsByClassName("garden");
+const dots5 = document.getElementsByClassName("dots__garden");
+const slides6 = document.getElementsByClassName("decor");
+const dots6 = document.getElementsByClassName("dots__decor");
+
 
 
 
@@ -90,4 +95,28 @@ function plusSlidePartitions() {
 }
 function minusSlidePartitions() {
     partitions.showSlides(-1, slides4, dots4);
+}
+
+/* Slider Garden*/
+const garden = new Slider()
+
+garden.showSlides(0, slides5, dots5);
+
+function plusSlideGarden() {
+    garden.showSlides(+1, slides5, dots5);
+}
+function minusSlideGarden() {
+    garden.showSlides(-1, slides5, dots5);
+}
+
+/* Slider Decor*/
+const decor = new Slider()
+
+decor.showSlides(0, slides6, dots6);
+
+function plusSlideDecor() {
+    decor.showSlides(+1, slides6, dots6);
+}
+function minusSlideDecor() {
+    decor.showSlides(-1, slides6, dots6);
 }
