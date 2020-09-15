@@ -10,6 +10,8 @@
 @import "product-section1.css";
 @import "product-slider.css";
 @import "gallery.css";
+@import "contacts.css";
+@import "contact-card.css";
 
 body {
    font-size: 16px;
@@ -30,13 +32,15 @@ body {
    width: 100vw;
    box-sizing: border-box;
    padding: 24px;
+   background-color: #37A8BF;
+   color: white;
 }
 
 
 .footer__link {
    font-family: 'Poiret One', cursive;
    font-size: 1rem;
-   color: black;
+   color: white;
    font-weight: bold;
 }
 

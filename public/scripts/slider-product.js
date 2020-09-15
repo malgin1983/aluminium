@@ -42,8 +42,6 @@ class Slider {
         }
         slides[this.slideIndex - 1].style.display = "block";
         dots[this.slideIndex - 1].className += " active";
-        console.log('this.slideIndex', this.slideIndex)
-        console.log('slides.length', slides.length)
     }
 }
 

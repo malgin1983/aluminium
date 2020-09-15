@@ -1,8 +1,37 @@
-<div class="forms">
-    <div style="width: 430%; display: flex; justify-content: center">
-        <h1 style="text-align: center">Сайт находится в разработке</h1>
+<div class="contacts">
+    <div class="contacts__form-container">
+        <div class="contacts__form-block">
+            <h3 class="contacts__form-logo">Заявка на персноальный расчет</h3>
+            <form name="contact-form" class="contacts__form" method="POST" action="/contact/add" >
+                <input type="text" name="name" id="name" class="contacts__form-input-text"  placeholder="Ваше имя">
+                <input type="tel" name="phone" id="phone" class="contacts__form-input-text" pattern="(\+?\d[- .]*){7,13}" placeholder="Номер телефона">
+                <input type="email" name="email" id="email" class="contacts__form-input-text" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" placeholder="Ваш e-mail:">
+                <textarea id="text-form" name="massage"placeholder="Ваше сообщение" rows="5"></textarea>
+                <button  class="contacts__form-btn" id="add-form">Отправить</button>
+            </form>
+        </div>
     </div>
-
+    <div class="contacts__container-maps">
+        <script type="text/javascript" charset="utf-8" async
+                src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae8c8ba6aec6ddad67f4391c9631b73e5dab9b3dd5a63ebc6512e5d19ffa8997b&amp;width=100%25&amp;height=458&amp;lang=ru_RU&amp;scroll=true">
+        </script>
+    </div>
+    <div class="contacts__status">
+        <div class="contacts__status-block">
+            <h2 class="contacts__status-block-logo">Офис продаж "Серпуховской"</h2>
+            <span class="contacts__status-block-status">Режим работы</span>
+            <span class="contacts__status-block-date">Понедельник - Суббота c 10:00 до 17:00 </span>
+            <span class="contacts__status-block-phone">+7(915)100-09-08</span>
+            <a class="contacts__status-block-mail" href = "mailto: okna-pc@mail.ru">okna-pc@mail.ru</a>
+        </div>
+        <div class="contacts__status-block">
+            <h2 class="contacts__status-block-logo">Офис продаж "Щусева"</h2>
+            <span class="contacts__status-block-status">Режим Работы</span>
+            <span class="contacts__status-block-date">Понедельник - Суббота c 10:00 до 17:00 </span>
+            <span class="contacts__status-block-phone">+7(495)661-94-49</span>
+            <a class="contacts__status-block-mail" href = "mailto: okna-pc@mail.ru">okna-pc@mail.ru</a>
+        </div>
+    </div>
 </div>
 
 <!-- /.container -->

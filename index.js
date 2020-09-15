@@ -4,6 +4,7 @@ const expressHbs = require('express-handlebars')
 const hbs = require('hbs')
 const app = express()
 const mongoose = require('mongoose')
+const bodyParser = require('body-parser')
 
 
 //Подключаем роуты
@@ -11,6 +12,7 @@ const homeRoute = require('./routes/home')
 const homeProduct = require('./routes/product') 
 const homeGallery = require('./routes/gallery')
 const homeContact = require('./routes/contact')
+const send = require('./routes/send')
 
 
 // Подключаем handlebars
@@ -30,6 +32,8 @@ app.set('views', 'views')
 
 //Подключаем статическую папку к express
 app.use(express.static('public'))
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
 app.use(express.urlencoded({extended : true }))
 
 
@@ -38,16 +42,17 @@ app.use('/', homeRoute)
 app.use('/product', homeProduct)
 app.use('/gallery', homeGallery)
 app.use('/contact', homeContact)
+app.use('/send', send)
 
 
 const PORT = config.get('port') || 80
 async function start() {
   try {
-    // await mongoose.connect(config.get('mongoUri'), {
-    //   useNewUrlParser: true,
-    //   useUnifiedTopology: true,
-    //   useCreateIndex: true
-    // })
+    await mongoose.connect(config.get('mongoUri'), {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndex: true
+    })
     app.listen(PORT, () => console.log(`База MONOGO подключена, сервер запущен по http://localhost:${PORT}`))
   } catch (e) {
     console.log('Ошибка  с сервера - ', e.message)

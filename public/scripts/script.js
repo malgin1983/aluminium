@@ -1,7 +1,4 @@
 
-window.onload = () => {
-
-
   const s1 = 'img/slider1.jpg'
   const s2 = 'img/slider2.jpg'
   const s3 = 'img/slider3.jpg'
@@ -42,23 +39,23 @@ window.onload = () => {
   }
 
 
-  left.addEventListener('click', () => {
+  !!left && left.addEventListener('click', () => {
     handleClickLeft()
   })
 
-  left.addEventListener('touchenter', () => {
+  !!left && left.addEventListener('touchenter', () => {
     handleClickLeft()
   })
 
 
-  right.addEventListener('click', ()=> {
+  !!right && right.addEventListener('click', ()=> {
     handleClickRight()
   })
 
-  right.addEventListener('touchenter', ()=> {
+  !!right && right.addEventListener('touchenter', ()=> {
     handleClickRight()
   })
 
   const timeOut = setInterval(()=> handleClickRight(),4000)
 
-}
+
