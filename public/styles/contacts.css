@@ -1,0 +1,104 @@
+.contacts {
+
+}
+
+.contacts__form-container {
+    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(62, 66, 60));
+    padding: 2vh;
+}
+
+.contacts__form-logo {
+    margin: 0 auto;
+    padding: 2vh;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+.contacts__form-block {
+    width: 30vw;
+    margin: 0 auto;
+}
+
+.contacts__form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contacts__form-input-text {
+    height: 35px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 19px;
+    transition: all 0.5s 0.1s;
+
+}
+
+#text-form {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.contacts__form-logo {
+    font-size: 28px;
+}
+
+
+.contacts__form-input-text:hover {
+    border: 3px solid orange;
+}
+
+#file-input {
+    display: none;
+
+
+}
+.contacts__form-label {
+    margin-top: 10px;
+}
+
+
+.contacts__form-label-img {
+    border-radius: 34%;
+    width: 52px;
+    transition: all 0.5s 0.1s;
+}
+
+.contacts__form-label-img:hover {
+    z-index: 2;
+    transform: scale(1.1, 1.1);
+    border: 1px solid orange;
+}
+
+.contacts__form-btn {
+    width: 200px;
+    height: 35px;
+    background: linear-gradient(90deg, #C82119, #C36560);
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 1vh;
+    margin-left: auto;
+    margin-bottom: 40px;
+}
+
+.contacts__form-btn:hover {
+    background: red;
+}
+
+.contacts__container-maps {
+    background-color: white;
+}
+
+.contacts__office-works {
+
+}
+
+@media screen and (max-width: 700px) {
+    .contacts__form-block {
+        width: 80vw;
+    }
+}

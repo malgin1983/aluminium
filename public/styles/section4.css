@@ -3,7 +3,6 @@
 /*********SECTION4****************/
 
 .section4 {
-    width: 100vw;
     padding: 2vh;
     display: flex;
     justify-content: space-around;
@@ -64,17 +63,17 @@
 
 @media screen and (max-width: 768px) {
     .section4 {
-        width: 100%;
+        width: 93%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .section4__btn {
-        width: 50%;
-        height: 30%;
-        top:35%;
-        left: 25%;
+        width: 103%;
+        height: 76%;
+        top: 35%;
+        left: 0%;
     }
 
 

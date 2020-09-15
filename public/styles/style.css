@@ -6,30 +6,24 @@
 @import "section3.css";
 @import "section4.css";
 @import "section5.css";
-@import "product-card.css";
+@import "cards.css";
 @import "product-section1.css";
 @import "product-slider.css";
-
-html{
-   font-size: 16px;
-}
-
-@media screen and (min-width: 1600px) {
-   html{
-      font-size: 50px;
-   }
-}
+@import "gallery.css";
+@import "contacts.css";
+@import "contact-card.css";
 
 body {
+   font-size: 16px;
    margin: 0;
    padding: 0;
    width: 100vw;
+   overflow-x: hidden;
 }
-
 
 .footer {
    font-family: 'Poiret One', cursive;
-   font-size: 2rem;
+   font-size: 1vw;
    border-top: 1px solid gray;
    display: flex;
    flex-direction: column;
@@ -38,13 +32,15 @@ body {
    width: 100vw;
    box-sizing: border-box;
    padding: 24px;
+   background-color: #37A8BF;
+   color: white;
 }
 
 
 .footer__link {
    font-family: 'Poiret One', cursive;
    font-size: 1rem;
-   color: black;
+   color: white;
    font-weight: bold;
 }
 

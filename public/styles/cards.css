@@ -1,0 +1,130 @@
+.cards {
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: gray;
+}
+
+.card {
+    height: 65vh;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh;
+    position: relative;
+    background-color: gray;
+    transition: all 0.5s 0.1s;
+}
+
+.card:hover {
+    background-color: #aaaaaa;
+    padding: 1vh;
+}
+
+.card__slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+}
+
+.card__slider-img {
+    width: calc(100% - 2vh);
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.card__left-arrow {
+    position: absolute;
+    z-index: 3;
+    left: 5%;
+    top: 40%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    opacity: 0.3;
+    border-radius: 50%;
+    transition: all 0.5s 0.1s;
+}
+
+.card__left-arrow:hover {
+    transform: scale(1.2, 1.2);
+    background-color: orange;
+    opacity: 1;
+}
+
+.card__close {
+    position: absolute;
+    z-index: 3;
+    right: 5%;
+    top: 5%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    opacity: 0.3;
+    border-radius: 50%;
+    transition: all 0.5s 0.1s;
+}
+
+.card__close:hover {
+    transform: scale(1.2, 1.2);
+    background-color: orange;
+    opacity: 1;
+}
+
+.card__right-arrow {
+    position: absolute;
+    z-index: 3;
+    right: 5%;
+    top: 40%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: dodgerblue;
+    opacity: 0.3;
+    border-radius: 50%;
+    transition: all 0.5s 0.1s;
+}
+
+.card__right-arrow:hover {
+    transform: scale(1.2, 1.2);
+    background-color: orange;
+    opacity: 1;
+}
+
+.card__img {
+    width: calc(100% - 2vh);
+    min-height: 50%;
+    height: 50vh;
+   }
+
+.card__text-block__header {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+.card__text-block__text {
+    font-size: 2vh;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: calc(100% - 24px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+}

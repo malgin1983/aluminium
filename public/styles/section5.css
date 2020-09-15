@@ -1,7 +1,6 @@
-/*********SECTION4****************/
+/*********SECTION5****************/
 
 .section5 {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -33,7 +32,7 @@
 
 .section5__container-text:hover {
     transform: scale(1.05,1.05);
-    color: midnightblue;
+    color: #32413C;
 }
 
 .section5__text-block {
@@ -43,6 +42,10 @@
     box-sizing: border-box;
     font-family: 'Poiret One', cursive;
     font-size: 2vh;
+}
+
+.section5__text-block__text {
+    font-size: 3vh;
 }
 
 

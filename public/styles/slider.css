@@ -12,6 +12,7 @@
     position: relative;
     width: 100vw;
     height: 60%;
+    margin-bottom: -5px;
 }
 
 .left-arrow {
@@ -20,7 +21,7 @@
     width: 5rem;
     height: 5rem;
     left: 3%;
-    top: 60vh;
+    top: 40%;
     cursor: pointer;
     background-color: dodgerblue;
     opacity: 0.3;
@@ -42,7 +43,7 @@
     position: absolute;
     z-index: 10;
     right: 3%;
-    top: 60vh;
+    top: 40%;
     width: 5rem;
     height: 5rem;
     cursor: pointer;
@@ -59,8 +60,6 @@
     }
 
     .left-arrow, .right-arrow {
-        position: absolute;
-        top: 90%;
         width: 2rem;
         height: 2rem;
         background-color: dodgerblue;

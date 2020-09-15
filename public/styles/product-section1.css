@@ -1,5 +1,4 @@
 .product-section1 {
-    width: 100%;
     padding: 2vh;
 }
 
@@ -13,4 +12,12 @@
     width: 98vw;
     display: flex;
     overflow-x: auto;
+}
+
+.product-section__text {
+    font-size: 2vh;
+    padding: 2vw 5vw;
+
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
 }
