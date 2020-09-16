@@ -45,7 +45,7 @@ app.use('/contact', homeContact)
 app.use('/send', send)
 
 
-const PORT = config.get('port') || 80
+const PORT = 80
 app.listen(PORT, () => console.log(`База MONOGO подключена, сервер запущен по http://localhost:${PORT}`))
 
 
