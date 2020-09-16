@@ -27,6 +27,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ad837bae-9171-48e9-92f7-007bc2cc2cf1" name="Default Changelist" comment="+2 slider to product">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +122,7 @@
       <workItem from="1600114653537" duration="4154000" />
       <workItem from="1600155908834" duration="103000" />
       <workItem from="1600186209771" duration="11145000" />
-      <workItem from="1600283665278" duration="36000" />
+      <workItem from="1600283665278" duration="1050000" />
     </task>
     <task id="LOCAL-00001" summary="+2 slider to product">
       <created>1599168981869</created>
@@ -158,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600197902428</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="alpha 1.1">
+      <created>1600283776377</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600283776377</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +200,8 @@
     <MESSAGE value="+2 slider to product" />
     <MESSAGE value="Created page gallery" />
     <MESSAGE value="beta 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="beta 1" />
+    <MESSAGE value="alpha 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="alpha 1.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="127" width="1720" height="855" key="DiffContextDialog" timestamp="1599163270906">
@@ -240,10 +249,11 @@
     <state x="2273" y="271" width="1445" height="749" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1599891685185" />
     <state x="207" y="247" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1599745716716" />
     <state x="413" y="247" width="1273" height="730" key="SettingsEditor/0.27.3840.1053@0.27.3840.1053" timestamp="1599770389687" />
-    <state x="278" y="288" width="587" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600197923960">
+    <state x="278" y="288" width="587" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600283825063">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="278" y="288" width="587" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1600197923960" />
+    <state x="278" y="288" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1600283825063" />
     <state x="555" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.3840.1053@0.27.3840.1053" timestamp="1599680812474" />
     <state x="1970" y="103" width="860" height="877" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599250290530">
       <screen x="1920" y="0" width="1920" height="1080" />

@@ -1,5 +1,0 @@
-{
-  "port" : 80,
-  "privateKey":"eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9",
-  "mongoUri": "mongodb+srv://malginvadim:Candy2018@cluster0-qrrzk.azure.mongodb.net/oknapremium?retryWrites=true&w=majority"
-}
