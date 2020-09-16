@@ -103,10 +103,13 @@
     .mobile__nav {
         position: absolute;
         z-index: 3;
-        top: 80%;
+        top: -42%;
         left: 28%;
         background-color: white;
         color: black;
+        border-radius: 10px;
+        background-color: #f3efef;
+        border: 2px solid #37A8BF;
 
     }
 
@@ -116,8 +119,8 @@
     }
     .mobile__nav-list-item {
         list-style: none;
-        padding: 1vh;
-        border: 1px solid black;
+        padding: 2vh;
+        border-bottom: 1px solid black;
         cursor: pointer;
     }
 

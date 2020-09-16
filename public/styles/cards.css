@@ -34,10 +34,12 @@
 }
 
 .card__slider-img {
-    width: calc(100% - 2vh);
-    height: 100%;
+    width: 86vw;
+    height: 99%;
     display: block;
     margin: 0 auto;
+    border: 4px solid rgb(138 43 226);
+    box-sizing: border-box;
 }
 
 .card__left-arrow {
