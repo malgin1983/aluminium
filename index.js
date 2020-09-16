@@ -40,7 +40,7 @@ app.use('/contact', homeContact)
 app.use('/send', send)
 
 
-const PORT = 3000
+const PORT = 80
 app.listen(PORT, () => console.log(`База MONOGO подключена, сервер запущен по http://localhost:${PORT}`))
 
 // async function start() {
