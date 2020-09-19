@@ -2,8 +2,8 @@ const path = require('path')
 module.exports ={
     mode: "development",
     entry: {
-        main: './public/scripts/index.js',
-        sliderBottom: './public/scripts/bottom-slider.js',
+        main: './public/scripts/gallery-sliders.js',
+        sliderBottom: './public/scripts/main-bottom-slider.js',
         contacts: './public/scripts/contacts.js'
     },
     output: {

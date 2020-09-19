@@ -1,3 +1,4 @@
+
 const slides1 = document.getElementsByClassName("patio");
 const dots1 = document.getElementsByClassName("slider-dots_item");
 const slides2 = document.getElementsByClassName("fasad");

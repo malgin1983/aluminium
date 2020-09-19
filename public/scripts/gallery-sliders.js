@@ -1,16 +1,16 @@
-  window.onload = () => {
+alert('fuck')
       /*ЖК Чeмпион парк*/
 
-      const s1 = 'img/champion1.jpg'
-      const s2 = 'img/champion2.jpg'
-      const s3 = 'img/champion3.jpg'
-      const s4 = 'img/champion4.jpg'
-      const s5 = 'img/champion5.jpg'
-      const s6 = 'img/champion6.jpg'
-      const s7 = 'img/champion7.jpg'
+      const ch1 = 'img/champion1.jpg'
+      const ch2 = 'img/champion2.jpg'
+      const ch3 = 'img/champion3.jpg'
+      const ch4 = 'img/champion4.jpg'
+      const ch5 = 'img/champion5.jpg'
+      const ch6 = 'img/champion6.jpg'
+      const ch7 = 'img/champion7.jpg'
 
-      const championSlide = [s1, s2, s3, s4, s5, s6, s7]
-      const active = s1
+      const championSlide = [ch1, ch2, ch3, ch4, ch5, ch6, ch7]
+      const active = ch1
 
       const left1 = document.getElementById('champion__left')
       const right1 = document.getElementById('champion__right')

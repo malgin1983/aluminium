@@ -1,10 +1,11 @@
 {
   "name": "okna-premium",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "description": "",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node index.js NODE_ENV=development PORT 3000",
+    "dev": "nodemon index.js NODE_ENV=development PORT 3000",
+    "prod": "pm2 start index.js PORT 80 NODE_ENV=production"
   },
   "keywords": [
     "lesson",
@@ -39,6 +40,7 @@
   },
   "dependencies": {
     "body-parser": "^1.19.0",
+    "core-js": "^3.6.5",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "handlebars": "^4.5.3",
