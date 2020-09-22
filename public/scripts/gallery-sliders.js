@@ -1,4 +1,3 @@
-alert('fuck')
       /*ЖК Чeмпион парк*/
 
       const ch1 = 'img/champion1.jpg'
@@ -10,7 +9,7 @@ alert('fuck')
       const ch7 = 'img/champion7.jpg'
 
       const championSlide = [ch1, ch2, ch3, ch4, ch5, ch6, ch7]
-      const active = ch1
+      const activeChamp= ch1
 
       const left1 = document.getElementById('champion__left')
       const right1 = document.getElementById('champion__right')
@@ -117,7 +116,7 @@ alert('fuck')
       const ol4 = 'img/zhavoronki4.jpg'
       const ol5 = 'img/zhavoronki5.jpg'
 
-      const olimpSlide = [zha1, zha2, zha3, zha4, zha5]
+      const olimpSlide = [ol1, ol2, ol3, ol4, ol5]
       const activeOlimp = zha1
 
       const leftOlimp = document.getElementById('olimp__left')
@@ -186,7 +185,7 @@ alert('fuck')
       }
 
 
-      const slider1 = new CardSlider(championSlide, active, slide1)
+      const slider1 = new CardSlider(championSlide, activeChamp, slide1)
       listeners(left1, right1, slider1)
 
       const slider2 = new CardSlider(forteSlide, activeForte, slideForte)
@@ -203,4 +202,3 @@ alert('fuck')
 
       const slider6 = new CardSlider(olimpSlide, activeOlimp, slideOlimp)
       listeners(leftOlimp, rightOlimp, slider6)
-  }

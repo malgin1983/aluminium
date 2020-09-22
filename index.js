@@ -41,7 +41,7 @@ app.use('/send', send)
 
 
 const PORT = process.argv[4];
-app.listen(PORT, () => console.log(`База MONOGO подключена, сервер запущен по http://localhost:${PORT}`))
+app.listen(PORT, () => console.log(`Server is started...`))
 
 // async function start() {
 //   try {
