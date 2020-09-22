@@ -19,20 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfff4123-9863-474d-a872-be196ce45dbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.browserslistrc" afterDir="false" />
+    <list default="true" id="cfff4123-9863-474d-a872-be196ce45dbc" name="Default Changelist" comment="alpha 1.1.4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/zamer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/contacts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/gallery-sliders.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/main-bottom-slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/main-slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/navbar-btn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/products.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layouts/main.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/product.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/product.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +117,7 @@
       <workItem from="1600630668060" duration="900000" />
       <workItem from="1600717085960" duration="51000" />
       <workItem from="1600717158161" duration="4199000" />
-      <workItem from="1600801308618" duration="4303000" />
+      <workItem from="1600801308618" duration="4921000" />
     </task>
     <task id="LOCAL-00001" summary="alpha 1.1.4">
       <created>1600802320096</created>
@@ -137,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600802320096</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="alpha 1.1.4">
+      <created>1600805823103</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600805823103</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,10 +192,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="297" y="287" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1600717283090" />
-    <state x="555" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600802523466">
+    <state x="555" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600806087809">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1600802523466" />
+    <state x="555" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1600806087809" />
     <state x="100" y="125" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600722274862">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

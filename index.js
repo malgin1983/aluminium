@@ -39,23 +39,6 @@ app.use('/gallery', homeGallery)
 app.use('/contact', homeContact)
 app.use('/send', send)
 
+app.listen(80, () => console.log(`Server is started...`))
 
-const PORT = process.argv[4];
-app.listen(PORT, () => console.log(`Server is started...`))
-
-// async function start() {
-//   try {
-//     await mongoose.connect(config.get('mongoUri'), {
-//       useNewUrlParser: true,
-//       useUnifiedTopology: true,
-//       useCreateIndex: true
-//     })
-//     app.listen(PORT, () => console.log(`База MONOGO подключена, сервер запущен по http://localhost:${PORT}`))
-//   } catch (e) {
-//     console.log('Ошибка  с сервера - ', e.message)
-//     process.exit(1)
-//   }
-// }
-// //Запустим сервер и базу MongoDB
-// start()
 
