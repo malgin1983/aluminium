@@ -361,11 +361,11 @@
 			const idx = this.arrSlide.findIndex(item => item === this.active)
 			if (idx === 0) {
 				const current = this.arrSlide[this.arrSlide.length - 1]
-				this.slide.src = current
+				if(this.slide) this.slide.src = current
 				this.active = current
 			} else {
 				const current = this.arrSlide[idx - 1]
-				this.slide.src = current
+				if(this.slide) this.slide.src = current
 				this.active = current
 			}
 		}
@@ -373,31 +373,31 @@
 			const idx = this.arrSlide.findIndex(item => item === this.active)
 			if (idx === this.arrSlide.length - 1) {
 				const current = this.arrSlide[0]
-				this.slide.src = current
+				if(this.slide) this.slide.src = current
 				this.active = current
 			} else {
 				const current = this.arrSlide[idx + 1]
-				this.slide.src = current
+				if(this.slide) this.slide.src = current
 				this.active = current
 			}
 		}
 	}
 
 	const listeners = (left, right, objectSlider) => {
-		left.addEventListener('click', () => {
+		!!left && left.addEventListener('click', () => {
 			objectSlider.handleClickLeft()
 		})
 
-		left.addEventListener('touchenter', () => {
+		!!left && left.addEventListener('touchenter', () => {
 			objectSlider.handleClickLeft()
 		})
 
 
-		right.addEventListener('click', () => {
+		!!right && right.addEventListener('click', () => {
 			objectSlider.handleClickRight()
 		})
 
-		right.addEventListener('touchenter', () => {
+		!!right && right.addEventListener('touchenter', () => {
 			objectSlider.handleClickRight()
 		})
 	}
