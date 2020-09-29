@@ -1,16 +1,11 @@
 const path = require('path')
 module.exports = {
-	mode: 'development',
+	mode: 'production',
 	entry: {
-		contacts: './public/scripts/contacts.js',
-		gallerySlider: './public/scripts/gallery-sliders.js',
-		mainBottomSlider: './public/scripts/main-bottom-slider.js',
-		mainSlider: './public/scripts/main-slider.js',
-		navbar: './public/scripts/navbar-btn.js',
-		products: './public/scripts/products.js',
+		main: './public/scripts/main.js',
 	},
 	output: {
-		filename: '[name].js',
+		filename: '[name].[hash:5].js',
 		path: path.join(__dirname, 'public', 'dist'),
 	},
 	module: {

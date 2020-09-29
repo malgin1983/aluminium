@@ -1,15 +1,16 @@
-//NavBar
+	/* NavBar start */
 	const btn = document.querySelector('.navbar__btn')
 	const mobNav = document.querySelector('.mobile__nav')
-	btn.addEventListener('click', ()=>{
+	!!btn && btn.addEventListener('click', ()=>{
 		mobNav.style.display = 'block'
 	})
 
-	btn.addEventListener('click', ()=>{
+	!!btn && btn.addEventListener('click', ()=>{
 		mobNav.style.display = 'block'
 	})
+	/* NavBar end */
 
-//Main-Slider
+	/* Main-Slider start */
 	const s1 = 'img/slider1.jpg'
 	const s2 = 'img/slider2.jpg'
 	const s3 = 'img/slider3.jpg'
@@ -27,7 +28,7 @@
 		const idx = arrSlide.findIndex((item) => item === active)
 		if (idx === 0) {
 			const current = arrSlide[arrSlide.length - 1]
-			if (slide) slide.src = current
+			if (!!slide) slide.src = current
 			active = current
 		} else {
 			const current = arrSlide[idx - 1]
@@ -39,39 +40,70 @@
 		const idx = arrSlide.findIndex((item) => item === active)
 		if (idx === arrSlide.length - 1) {
 			const current = arrSlide[0]
-			if (slide) slide.src = current
+			if (!!slide) slide.src = current
 			active = current
 		} else {
 			const current = arrSlide[idx + 1]
-			if (slide) slide.src = current
+			if (!!slide) slide.src = current
 			active = current
 		}
 	}
 
-	!!left &&
-	left.addEventListener('click', () => {
+	!!left && left.addEventListener('click', () => {
 		handleClickLeft()
+		clearInterval(timeOut)
 	})
 
-	!!left &&
-	left.addEventListener('touchenter', () => {
-		handleClickLeft()
-	})
-
-	!!right &&
-	right.addEventListener('click', () => {
+	!!right && right.addEventListener('click', () => {
 		handleClickRight()
-	})
-
-	!!right &&
-	right.addEventListener('touchenter', () => {
-		handleClickRight()
+		clearInterval(timeOut)
 	})
 
 	const timeOut = setInterval(() => handleClickRight(), 4000)
 
-//Main-Bottom-Slider
+	class TouchSlider {
+		constructor(left, right) {
+			this.xDown = null
+			this.yDown = null
+			this.handleClickLeft = left
+			this.handleClickRight = right
+		}
+		handleTouchStart = (event) => {
+			this.xDown = event.touches[0].clientX
+			this.yDown = event.touches[0].clientY
+		}
+		handleTouchMove = (event) => {
+			if ( ! this.xDown || ! this.yDown ) {
+				return
+			}
 
+			let xUp = event.touches[0].clientX
+			let yUp = event.touches[0].clientY
+
+			let xDiff = this.xDown - xUp
+			let yDiff = this.yDown - yUp
+
+			if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {
+				if ( xDiff > 0 ) {
+					this.handleClickLeft()
+				} else {
+					this.handleClickRight()
+				}
+			}
+			this.xDown = null
+			this.yDown = null
+		}
+	}
+
+	const mainTouchSlider = new TouchSlider(handleClickLeft, handleClickRight)
+
+	// Вешаем на прикосновение функцию handleTouchStart
+	!!slide && slide.addEventListener('touchstart', mainTouchSlider.handleTouchStart, false)
+	// А на движение пальцем по экрану - handleTouchMove
+	!!slide && slide.addEventListener('touchmove', mainTouchSlider.handleTouchMove, false)
+	/* Main-Slider end */
+
+	/* Main-Bottom-Slider start */
 	const slides = document.querySelectorAll('.section5__slider-img')
 	Array.from(slides)
 	slides.forEach(slide => slide.style.display = 'none')
@@ -97,8 +129,9 @@
 			}            }
 
 	},4000)
+	/* Main-Bottom-Slider end */
 
-//Products-Sliders
+	/* Products-Sliders start */
 	const slides1 = document.getElementsByClassName('patio')
 	const dots1 = document.getElementsByClassName('slider-dots_item')
 	const slides2 = document.getElementsByClassName('fasad')
@@ -141,20 +174,12 @@
 			!!dots[this.slideIndex - 1] && (dots[this.slideIndex - 1].className += ' active')
 		}
 	}
+	/* Products-Sliders end */
 
-	/* Slider Patio */
-	const patio = new Slider()
+	/* Slider Fasad start */
+	const nextFasad = document.getElementById('fasad-next')
+	const prevFasad = document.getElementById('fasad-prev')
 
-	patio.showSlides(0, slides1, dots1)
-
-	function plusSlidePatio() {
-		patio.showSlides(+1, slides1, dots1)
-	}
-	function minusSlidePatio() {
-		patio.showSlides(-1, slides1, dots1)
-	}
-
-	/* Slider Fasad */
 	const fasad = new Slider()
 
 	fasad.showSlides(0, slides2, dots2)
@@ -166,7 +191,33 @@
 		fasad.showSlides(-1, slides2, dots2)
 	}
 
-	/* Slider Doors */
+	!!nextFasad && nextFasad.addEventListener('click', plusSlideFasad)
+	!!prevFasad && prevFasad.addEventListener('click', minusSlideFasad)
+	/* Slider Fasad end */
+
+	/* Slider Patio start*/
+	const nextPatio = document.getElementById('patio-next')
+	const prevPatio = document.getElementById('patio-prev')
+
+	const patio = new Slider()
+
+	patio.showSlides(0, slides1, dots1)
+
+	function plusSlidePatio() {
+		patio.showSlides(+1, slides1, dots1)
+	}
+	function minusSlidePatio() {
+		patio.showSlides(-1, slides1, dots1)
+	}
+
+	!!nextPatio && nextPatio.addEventListener('click', plusSlidePatio)
+	!!prevPatio && prevPatio.addEventListener('click', minusSlidePatio)
+	/* Slider Patio end*/
+
+	/* Slider Doors start*/
+	const nextDoors = document.getElementById('doors-next')
+	const prevDoors = document.getElementById('doors-prev')
+
 	const doors = new Slider()
 
 	doors.showSlides(0, slides3, dots3)
@@ -178,7 +229,14 @@
 		doors.showSlides(-1, slides3, dots3)
 	}
 
-	/* Slider Partitions*/
+	!!nextDoors && nextDoors.addEventListener('click', plusSlideDoors)
+	!!prevDoors && prevDoors.addEventListener('click', minusSlideDoors)
+	/* Slider Doors end*/
+
+	/* Slider Partitions start*/
+	const nextParti = document.getElementById('partitions-next')
+	const prevParti = document.getElementById('partitions-prev')
+
 	const partitions = new Slider()
 
 	partitions.showSlides(0, slides4, dots4)
@@ -190,7 +248,14 @@
 		partitions.showSlides(-1, slides4, dots4)
 	}
 
-	/* Slider Garden*/
+	!!nextParti && nextParti.addEventListener('click', plusSlidePartitions)
+	!!prevParti && prevParti.addEventListener('click', minusSlidePartitions)
+	/* Slider Partitions end*/
+
+	/* Slider Garden start*/
+	const nextGarden = document.getElementById('garden-next')
+	const prevGarden = document.getElementById('garden-prev')
+
 	const garden = new Slider()
 
 	garden.showSlides(0, slides5, dots5)
@@ -202,7 +267,13 @@
 		garden.showSlides(-1, slides5, dots5)
 	}
 
-	/* Slider Decor*/
+	!!nextGarden && nextGarden.addEventListener('click', plusSlideGarden)
+	!!prevGarden && prevGarden.addEventListener('click', minusSlideGarden)
+	/* Slider Garden end*/
+
+	/* Slider Decor start*/
+	const nextDecor = document.getElementById('decor-next')
+	const prevDecor = document.getElementById('decor-prev')
 	const decor = new Slider()
 
 	decor.showSlides(0, slides6, dots6)
@@ -214,10 +285,13 @@
 		decor.showSlides(-1, slides6, dots6)
 	}
 
-//Gallery
+	!!nextDecor && nextDecor.addEventListener('click', plusSlideDecor)
+	!!prevDecor && prevDecor.addEventListener('click', minusSlideDecor)
+	/* Slider Decor start*/
 
-	/*ЖК Чeмпион парк*/
+	/* Gallery start */
 
+	//ЖК Чeмпион парк
 	const ch1 = 'img/champion1.jpg'
 	const ch2 = 'img/champion2.jpg'
 	const ch3 = 'img/champion3.jpg'
@@ -239,7 +313,7 @@
 	!!close1 && close1.addEventListener('click', () => block1.style.display = 'none')
 	!!img1 && img1.addEventListener('click', () => block1.style.display = 'block')
 
-	/*ЖК Форте пиано*/
+	//ЖК Форте пиано
 
 	const f1 = 'img/forte_piano1.jpg'
 	const f2 = 'img/forte_piano2.jpg'
@@ -261,7 +335,7 @@
 	!!closeForte && closeForte.addEventListener('click', () => blockForte.style.display = 'none')
 	!!imgForte && imgForte.addEventListener('click', () => blockForte.style.display = 'block')
 
-	/*ЖК Зиларт*/
+	//ЖК Зиларт
 
 	const z1 = 'img/zilart1.jpg'
 	const z2 = 'img/zilart2.jpg'
@@ -284,7 +358,7 @@
 	!!closeZil && closeZil.addEventListener('click', () => blockZil.style.display = 'none')
 	!!imgZil && imgZil.addEventListener('click', () => blockZil.style.display = 'block')
 
-	/*ЖК Доминион*/
+	//ЖК Доминион
 
 	const d1 = 'img/dominion1.jpg'
 	const d2 = 'img/dominion2.jpg'
@@ -305,7 +379,7 @@
 	!!closeDomi && closeDomi.addEventListener('click', () => blockDomi.style.display = 'none')
 	!!imgDomi && imgDomi.addEventListener('click', () => blockDomi.style.display = 'block')
 
-	/*ЖК Жаворонки*/
+	//ЖК Жаворонки
 
 	const zha1 = 'img/zhavoronki1.jpg'
 	const zha2 = 'img/zhavoronki2.jpg'
@@ -326,7 +400,7 @@
 	!!closeZha && closeZha.addEventListener('click', () => blockZha.style.display = 'none')
 	!!imgZha && imgZha.addEventListener('click', () => blockZha.style.display = 'block')
 
-	/*ЖК Донской Олимп*/
+	//ЖК Донской Олимп
 
 	const ol1 = 'img/zhavoronki1.jpg'
 	const ol2 = 'img/zhavoronki2.jpg'
@@ -348,8 +422,6 @@
 	!!imgOlimp && imgOlimp.addEventListener('click', () => blockOlimp.style.display = 'block')
 
 
-	/*body*/
-
 	class CardSlider {
 		constructor(arr, active, slide) {
 			this.arrSlide = arr
@@ -361,11 +433,11 @@
 			const idx = this.arrSlide.findIndex(item => item === this.active)
 			if (idx === 0) {
 				const current = this.arrSlide[this.arrSlide.length - 1]
-				this.slide.src = current
+				if(this.slide) this.slide.src = current
 				this.active = current
 			} else {
 				const current = this.arrSlide[idx - 1]
-				this.slide.src = current
+				if(this.slide) this.slide.src = current
 				this.active = current
 			}
 		}
@@ -373,31 +445,31 @@
 			const idx = this.arrSlide.findIndex(item => item === this.active)
 			if (idx === this.arrSlide.length - 1) {
 				const current = this.arrSlide[0]
-				this.slide.src = current
+				if(this.slide) this.slide.src = current
 				this.active = current
 			} else {
 				const current = this.arrSlide[idx + 1]
-				this.slide.src = current
+				if(this.slide) this.slide.src = current
 				this.active = current
 			}
 		}
 	}
 
 	const listeners = (left, right, objectSlider) => {
-		left.addEventListener('click', () => {
+		!!left && left.addEventListener('click', () => {
 			objectSlider.handleClickLeft()
 		})
 
-		left.addEventListener('touchenter', () => {
+		!!left && left.addEventListener('touchenter', () => {
 			objectSlider.handleClickLeft()
 		})
 
 
-		right.addEventListener('click', () => {
+		!!right && right.addEventListener('click', () => {
 			objectSlider.handleClickRight()
 		})
 
-		right.addEventListener('touchenter', () => {
+		!!right && right.addEventListener('touchenter', () => {
 			objectSlider.handleClickRight()
 		})
 	}
@@ -420,9 +492,9 @@
 
 	const slider6 = new CardSlider(olimpSlide, activeOlimp, slideOlimp)
 	listeners(leftOlimp, rightOlimp, slider6)
+	/* Gallery end */
 
-//Contacts
-
+	/* Contacts start */
 	const name = document.querySelector('#contacts__form-input-text')
 	const phone = document.querySelector('#phone')
 	const email = document.querySelector('#email')
@@ -474,3 +546,4 @@
 	!!btnForm && btnForm.addEventListener('click', (event)=>{
 		submit(fromForm)
 	})
+	/* Contacts end */
