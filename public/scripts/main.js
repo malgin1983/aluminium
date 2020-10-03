@@ -132,10 +132,10 @@
 	/* Main-Bottom-Slider end */
 
 	/* Products-Sliders start */
-	const slides1 = document.getElementsByClassName('patio')
+	const slides1 = document.getElementsByClassName('fasad')
 	const dots1 = document.getElementsByClassName('slider-dots_item')
-	const slides2 = document.getElementsByClassName('fasad')
-	const dots2 = document.getElementsByClassName('dots__fasad')
+	const slides2 = document.getElementsByClassName('patio')
+	const dots2 = document.getElementsByClassName('dots__patio')
 	const slides3 = document.getElementsByClassName('doors')
 	const dots3 = document.getElementsByClassName('dots__doors')
 	const slides4 = document.getElementsByClassName('partitions')
@@ -182,17 +182,21 @@
 
 	const fasad = new Slider()
 
-	fasad.showSlides(0, slides2, dots2)
+	fasad.showSlides(0, slides1, dots1)
 
 	function plusSlideFasad() {
-		fasad.showSlides(+1, slides2, dots2)
+		fasad.showSlides(+1, slides1, dots1)
 	}
 	function minusSlideFasad() {
-		fasad.showSlides(-1, slides2, dots2)
+		fasad.showSlides(-1, slides1, dots1)
 	}
-
 	!!nextFasad && nextFasad.addEventListener('click', plusSlideFasad)
 	!!prevFasad && prevFasad.addEventListener('click', minusSlideFasad)
+
+	const fasadBlock = document.querySelector('.slider__fasad')
+	const fasadTouchSlider = new TouchSlider(plusSlideFasad, minusSlideFasad)
+	!!fasadBlock && fasadBlock.addEventListener('touchstart', fasadTouchSlider.handleTouchStart, false)
+	!!fasadBlock && fasadBlock.addEventListener('touchmove', fasadTouchSlider.handleTouchMove, false)
 	/* Slider Fasad end */
 
 	/* Slider Patio start*/
@@ -201,17 +205,22 @@
 
 	const patio = new Slider()
 
-	patio.showSlides(0, slides1, dots1)
+	patio.showSlides(0, slides2, dots2)
 
 	function plusSlidePatio() {
-		patio.showSlides(+1, slides1, dots1)
+		patio.showSlides(+1, slides2, dots2)
 	}
 	function minusSlidePatio() {
-		patio.showSlides(-1, slides1, dots1)
+		patio.showSlides(-1, slides2, dots2)
 	}
 
 	!!nextPatio && nextPatio.addEventListener('click', plusSlidePatio)
 	!!prevPatio && prevPatio.addEventListener('click', minusSlidePatio)
+
+	const patioBlock = document.querySelector('.slider__patio')
+	const patioTouchSlider = new TouchSlider(plusSlidePatio, minusSlidePatio)
+	!!patioBlock && patioBlock.addEventListener('touchstart',  patioTouchSlider.handleTouchStart, false)
+	!!patioBlock && patioBlock.addEventListener('touchmove',  patioTouchSlider.handleTouchMove, false)
 	/* Slider Patio end*/
 
 	/* Slider Doors start*/
@@ -231,6 +240,11 @@
 
 	!!nextDoors && nextDoors.addEventListener('click', plusSlideDoors)
 	!!prevDoors && prevDoors.addEventListener('click', minusSlideDoors)
+
+	const doorsBlock = document.querySelector('.slider__doors')
+	const doorsTouchSlider = new TouchSlider(plusSlideDoors, minusSlideDoors)
+	!!doorsBlock && doorsBlock.addEventListener('touchstart',  doorsTouchSlider.handleTouchStart, false)
+	!!doorsBlock && doorsBlock.addEventListener('touchmove',  doorsTouchSlider.handleTouchMove, false)
 	/* Slider Doors end*/
 
 	/* Slider Partitions start*/
@@ -250,6 +264,11 @@
 
 	!!nextParti && nextParti.addEventListener('click', plusSlidePartitions)
 	!!prevParti && prevParti.addEventListener('click', minusSlidePartitions)
+
+	const partitionsBlock = document.querySelector('.slider__partitions')
+	const partitionsTouchSlider = new TouchSlider(plusSlidePartitions, minusSlidePartitions)
+	!!partitionsBlock && partitionsBlock.addEventListener('touchstart',  partitionsTouchSlider.handleTouchStart, false)
+	!!partitionsBlock && partitionsBlock.addEventListener('touchmove',  partitionsTouchSlider.handleTouchMove, false)
 	/* Slider Partitions end*/
 
 	/* Slider Garden start*/
@@ -269,6 +288,11 @@
 
 	!!nextGarden && nextGarden.addEventListener('click', plusSlideGarden)
 	!!prevGarden && prevGarden.addEventListener('click', minusSlideGarden)
+
+	const gardenBlock = document.querySelector('.slider__garden')
+	const gardenTouchSlider = new TouchSlider(plusSlideGarden, minusSlideGarden)
+	!!gardenBlock && gardenBlock.addEventListener('touchstart',  gardenTouchSlider.handleTouchStart, false)
+	!!gardenBlock && gardenBlock.addEventListener('touchmove',  gardenTouchSlider.handleTouchMove, false)
 	/* Slider Garden end*/
 
 	/* Slider Decor start*/
@@ -287,6 +311,11 @@
 
 	!!nextDecor && nextDecor.addEventListener('click', plusSlideDecor)
 	!!prevDecor && prevDecor.addEventListener('click', minusSlideDecor)
+
+	const decorBlock = document.querySelector('.slider__decor')
+	const decorTouchSlider = new TouchSlider(plusSlideDecor, minusSlideDecor)
+	!!decorBlock && decorBlock.addEventListener('touchstart',  decorTouchSlider.handleTouchStart, false)
+	!!decorBlock && decorBlock.addEventListener('touchmove',  decorTouchSlider.handleTouchMove, false)
 	/* Slider Decor start*/
 
 	/* Gallery start */
