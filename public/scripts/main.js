@@ -402,11 +402,11 @@
 
 	//ЖК Донской Олимп
 
-	const ol1 = 'img/zhavoronki1.jpg'
-	const ol2 = 'img/zhavoronki2.jpg'
-	const ol3 = 'img/zhavoronki3.jpg'
-	const ol4 = 'img/zhavoronki4.jpg'
-	const ol5 = 'img/zhavoronki5.jpg'
+	const ol1 = 'img/olimp1.jpg'
+	const ol2 = 'img/olimp2.jpg'
+	const ol3 = 'img/olimp3.jpg'
+	const ol4 = 'img/olimp4.jpg'
+	const ol5 = 'img/olimp5.jpg'
 
 	const olimpSlide = [ol1, ol2, ol3, ol4, ol5]
 	const activeOlimp = zha1

@@ -1,3 +1,7 @@
+.gallery {
+    position: relative;
+}
+
 .cards {
     padding: 0 24px;
     display: flex;
@@ -13,7 +17,6 @@
     flex-direction: column;
     align-items: center;
     padding: 2vh;
-    position: relative;
     background-color: gray;
     transition: all 0.5s 0.1s;
     box-sizing: border-box;
@@ -26,30 +29,34 @@
 
 .card__slider {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
+    width: 100vw;
+    height: 150%;
+    top: -34%;
     left: 0;
     z-index: 2;
     display: none;
+    background-color: black;
 }
 
 .card__slider-img {
-    width: 31vw;
-    height: 99%;
+    width: 50vw;
+    height: 80vh;
     display: block;
-    margin: 0 auto;
-    border: 4px solid coral;
-    box-shadow: 0 0 20px coral;
+    border: 2px solid coral;
+    box-shadow: 0 0 40px coral;
     box-sizing: border-box;
     border-radius: 30px;
+    padding: 20px;
+    position: fixed;
+    margin-left: 25%;
+    margin-top: 5%;
 }
 
 .card__left-arrow {
-    position: absolute;
     z-index: 3;
-    left: 3%;
-    top: 40%;
+    position: fixed;
+    margin-top: 45vh;
+    margin-left: 10vw;
     width: 70px;
     height: 70px;
     cursor: pointer;
@@ -67,12 +74,12 @@
 }
 
 .card__close {
-    position: absolute;
     z-index: 3;
-    right: 5%;
-    top: 5%;
-    width: 70px;
-    height: 70px;
+    position: fixed;
+    margin-top: 5vh;
+    margin-left: 95vw;
+    width: 35px;
+    height: 35px;
     cursor: pointer;
     background-color: white;
     opacity: 0.3;
@@ -88,10 +95,10 @@
 }
 
 .card__right-arrow {
-    position: absolute;
     z-index: 3;
-    right: 0;
-    top: 40%;
+    position: fixed;
+    margin-top: 45vh;
+    margin-left: 85vw;
     width: 70px;
     height: 70px;
     cursor: pointer;
@@ -135,17 +142,65 @@
         border-radius: 40px;
     }
     .card__slider-img {
+        margin-top: 119%;
         width: 90vw;
-        height: 100%;
+        margin-left: 6vw;
+        height: 60vh;
     }
 
     .card__slider {
         left: -16px;
     }
 
-    .card__right-arrow {
-        right: -7%;
+    .card__left-arrow {
+        margin-top: 205%;
     }
 
+    .card__right-arrow {
+        margin-top: 205%;
+        margin-left: 75vw;
+    }
 
+    .card__close {
+        margin-top: 105%;
+        margin-left: 46vw;
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        width: calc(100% - 24px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 40px;
+    }
+    .card__slider-img {
+        margin-top: 75vh;
+        width: 90vw;
+        margin-left: 29px;
+        height: 60vh;
+    }
+
+    .card__slider {
+        left: -16px;
+    }
+
+    .card__left-arrow {
+        margin-top: 310%;
+    }
+
+    .card__right-arrow {
+        margin-top: 310%;
+        margin-left: 75vw;
+    }
+
+    .card__close {
+        margin-top: 140%;
+        margin-left: 46vw;
+        width: 60px;
+        height: 60px;
+    }
 }
