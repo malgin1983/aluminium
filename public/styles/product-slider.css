@@ -14,10 +14,9 @@
     box-shadow: none !important;
 }
 /* Кнопки вперед и назад */
-.slider .prev, .slider .next {
+.prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 0;
     top: 40%;
     width: auto;
     margin-top: -22px;
@@ -33,8 +32,8 @@
     border-radius: 3px 0 0 3px;
 }
 /* При наведении на кнопки добавляем фон кнопок */
-.slider .prev:hover,
-.slider .next:hover {
+.prev:hover,
+.next:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -94,10 +93,10 @@
 }
 
 @media screen and (max-width: 768px) {
-    .slider .prev, .slider .next {
+    .prev, .next {
         font-size: 60px;
-        height: 45vh;
     }
+
     .slider-dots_item {
         width: 15px;
         height: 15px;

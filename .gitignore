@@ -3,4 +3,6 @@
 # dependencies
 /node_modules
 /config
+/.idea
+/.vscode
 

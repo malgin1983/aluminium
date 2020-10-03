@@ -1,208 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfff4123-9863-474d-a872-be196ce45dbc" name="Default Changelist" comment="alpha 1.1.4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="9e059f3e-f052-4960-b2e4-a40c5f54044a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1hkOdQhGt1wwJ55vgEcIsw3lZud" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1iI6v94ZNhpkY0xuGUvEMz6iWIN" />
   <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/scripts" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.start" />
-      </list>
-    </recent_temporary>
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cfff4123-9863-474d-a872-be196ce45dbc" name="Default Changelist" comment="" />
-      <created>1600551714307</created>
+      <changelist id="9e059f3e-f052-4960-b2e4-a40c5f54044a" name="Default Changelist" comment="" />
+      <created>1601582989915</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1600551714307</updated>
-      <workItem from="1600551717127" duration="114000" />
-      <workItem from="1600605283265" duration="5186000" />
-      <workItem from="1600622152025" duration="8326000" />
-      <workItem from="1600630668060" duration="900000" />
-      <workItem from="1600717085960" duration="51000" />
-      <workItem from="1600717158161" duration="4199000" />
-      <workItem from="1600801308618" duration="4921000" />
+      <updated>1601582989915</updated>
+      <workItem from="1601582993395" duration="8000" />
+      <workItem from="1601583403018" duration="174000" />
+      <workItem from="1601668835381" duration="599000" />
+      <workItem from="1601732116088" duration="598000" />
     </task>
-    <task id="LOCAL-00001" summary="alpha 1.1.4">
-      <created>1600802320096</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1600802320096</updated>
-    </task>
-    <task id="LOCAL-00002" summary="alpha 1.1.4">
-      <created>1600805823103</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1600805823103</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="alpha 1.1.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="alpha 1.1.4" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="555" y="196" width="800" height="712" key="#Plugins" timestamp="1600717181433">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="555" y="196" width="800" height="712" key="#Plugins/0.27.1920.1053@0.27.1920.1053" timestamp="1600717181433" />
-    <state x="594" y="351" width="776" height="402" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600803720021">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="594" y="351" width="776" height="402" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1600803720021" />
-    <state x="710" y="310" key="FileChooserDialogImpl" timestamp="1600623938333">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="710" y="310" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1600623938333" />
-    <state width="1870" height="277" key="GridCell.Tab.0.bottom" timestamp="1600720607556">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1870" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1600720607556" />
-    <state width="1870" height="277" key="GridCell.Tab.0.center" timestamp="1600720607555">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1870" height="277" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1600720607555" />
-    <state width="1870" height="277" key="GridCell.Tab.0.left" timestamp="1600720607554">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1870" height="277" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1600720607554" />
-    <state width="1870" height="277" key="GridCell.Tab.0.right" timestamp="1600720607556">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state width="1870" height="277" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1600720607556" />
-    <state x="543" y="298" width="824" height="508" key="IDE.errors.dialog" timestamp="1600717104725">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="543" y="298" width="824" height="508" key="IDE.errors.dialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600717104725" />
-    <state x="297" y="287" key="SettingsEditor" timestamp="1600717283090">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="297" y="287" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1600717283090" />
-    <state x="555" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1600806087809">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="555" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1600806087809" />
-    <state x="100" y="125" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600722274862">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="100" y="125" width="1720" height="855" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1600722274862" />
-    <state x="622" y="271" width="676" height="562" key="find.popup" timestamp="1600608270946">
-      <screen x="0" y="27" width="3840" height="1053" />
-    </state>
-    <state x="622" y="271" width="676" height="562" key="find.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1600608270946" />
   </component>
 </project>
