@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e059f3e-f052-4960-b2e4-a40c5f54044a" name="Default Changelist" comment="">
+    <list default="true" id="9e059f3e-f052-4960-b2e4-a40c5f54044a" name="Default Changelist" comment="Created branch dev">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/product.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/product.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scripts/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/main.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/main.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +31,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="development" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iI6v94ZNhpkY0xuGUvEMz6iWIN" />
@@ -31,6 +55,28 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/scripts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,17 +90,63 @@
       <workItem from="1601668835381" duration="599000" />
       <workItem from="1601732116088" duration="598000" />
       <workItem from="1601736709468" duration="5582000" />
+      <workItem from="1602102061468" duration="114000" />
     </task>
+    <task id="LOCAL-00001" summary="Created branch dev">
+      <created>1602101625835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602101625835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created all sliders on touch" />
+    <MESSAGE value="Created branch dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created branch dev" />
+  </component>
   <component name="WindowStateProjectService">
+    <state width="1870" height="249" key="GridCell.Tab.0.bottom" timestamp="1602102168577">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1870" height="249" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1602102168577" />
+    <state width="1870" height="249" key="GridCell.Tab.0.center" timestamp="1602102168577">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1870" height="249" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1602102168577" />
+    <state width="1870" height="249" key="GridCell.Tab.0.left" timestamp="1602102168576">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1870" height="249" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1602102168576" />
+    <state width="1870" height="249" key="GridCell.Tab.0.right" timestamp="1602102168577">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1870" height="249" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1602102168577" />
     <state x="419" y="187" key="SettingsEditor" timestamp="1601740681763">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="419" y="187" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1601740681763" />
+    <state x="555" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1602101641702">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1602101641702" />
     <state x="603" y="257" width="711" height="678" key="search.everywhere.popup" timestamp="1601740636832">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

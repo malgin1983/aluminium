@@ -8,7 +8,7 @@ const bodyParser = require('body-parser')
 
 //Подключаем роуты
 const homeRoute = require('./routes/home')
-const homeProduct = require('./routes/product') 
+const homeProduct = require('./routes/product')
 const homeGallery = require('./routes/gallery')
 const homeContact = require('./routes/contact')
 const send = require('./routes/send')
@@ -40,22 +40,5 @@ app.use('/contact', homeContact)
 app.use('/send', send)
 
 
-const PORT = process.argv[4];
+const PORT = 80;
 app.listen(PORT, () => console.log(`Server is started...`))
-
-// async function start() {
-//   try {
-//     await mongoose.connect(config.get('mongoUri'), {
-//       useNewUrlParser: true,
-//       useUnifiedTopology: true,
-//       useCreateIndex: true
-//     })
-//     app.listen(PORT, () => console.log(`База MONOGO подключена, сервер запущен по http://localhost:${PORT}`))
-//   } catch (e) {
-//     console.log('Ошибка  с сервера - ', e.message)
-//     process.exit(1)
-//   }
-// }
-// //Запустим сервер и базу MongoDB
-// start()
-
