@@ -438,7 +438,7 @@
 	const ol5 = 'img/olimp5.jpg'
 
 	const olimpSlide = [ol1, ol2, ol3, ol4, ol5]
-	const activeOlimp = zha1
+	const activeOlimp = ol1
 
 	const leftOlimp = document.getElementById('olimp__left')
 	const rightOlimp = document.getElementById('olimp__right')
@@ -484,50 +484,43 @@
 		}
 	}
 
-	const listeners = (left, right, objectSlider) => {
+	const listeners = (left, right, objectSlider, image) => {
 		!!left && left.addEventListener('click', () => {
 			objectSlider.handleClickLeft()
 		})
-
-		!!left && left.addEventListener('touchenter', () => {
-			objectSlider.handleClickLeft()
-		})
-
 
 		!!right && right.addEventListener('click', () => {
 			objectSlider.handleClickRight()
 		})
 
-		!!right && right.addEventListener('touchenter', () => {
-			objectSlider.handleClickRight()
-		})
+		const touchSlider = new TouchSlider(objectSlider.handleClickLeft, objectSlider.handleClickRight)
+		!!image && image.addEventListener('touchstart',  touchSlider.handleTouchStart, false)
+		!!image && image.addEventListener('touchmove',  touchSlider.handleTouchMove, false)
 	}
 
-
 	const slider1 = new CardSlider(championSlide, activeChamp, slide1)
-	listeners(left1, right1, slider1)
+	listeners(left1, right1, slider1, slide1)
 
 	const slider2 = new CardSlider(forteSlide, activeForte, slideForte)
-	listeners(leftForte, rightForte, slider2)
+	listeners(leftForte, rightForte, slider2, slideForte)
 
 	const slider3 = new CardSlider(zilSlide, activeZil, slideZil)
-	listeners(leftZil, rightZil, slider3)
+	listeners(leftZil, rightZil, slider3, slideZil)
 
 	const slider4 = new CardSlider(domiSlide, activeDomi, slideDomi)
-	listeners(leftDomi, rightDomi, slider4)
+	listeners(leftDomi, rightDomi, slider4, slideDomi)
 
 	const slider5 = new CardSlider(zhaSlide, activeZha, slideZha)
-	listeners(leftZha, rightZha, slider5)
+	listeners(leftZha, rightZha, slider5, slideZha)
 
 	const slider6 = new CardSlider(olimpSlide, activeOlimp, slideOlimp)
-	listeners(leftOlimp, rightOlimp, slider6)
+	listeners(leftOlimp, rightOlimp, slider6, slideOlimp)
 	/* Gallery end */
 
 	/* Contacts start */
 	const name = document.querySelector('#contacts__form-input-text')
 	const phone = document.querySelector('#phone')
 	const email = document.querySelector('#email')
-	const files = document.querySelector('#file-input')
 	const btnForm = document.getElementById('add-form')
 	const massage = document.querySelector('#text-form')
 
