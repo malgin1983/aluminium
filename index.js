@@ -8,7 +8,7 @@ const bodyParser = require('body-parser')
 
 //Подключаем роуты
 const homeRoute = require('./routes/home')
-const homeProduct = require('./routes/product') 
+const homeProduct = require('./routes/product')
 const homeGallery = require('./routes/gallery')
 const homeContact = require('./routes/contact')
 const send = require('./routes/send')
@@ -43,6 +43,7 @@ app.use('/send', send)
 const PORT = process.argv[4];
 app.listen(PORT, () => console.log(`Server is started...`))
 
+//
 // async function start() {
 //   try {
 //     await mongoose.connect(config.get('mongoUri'), {
