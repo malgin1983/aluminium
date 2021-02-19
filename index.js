@@ -1,9 +1,6 @@
 const express = require('express')
-const config = require('config')
 const expressHbs = require('express-handlebars')
-const hbs = require('hbs')
 const app = express()
-const mongoose = require('mongoose')
 const bodyParser = require('body-parser')
 
 //Подключаем роуты
