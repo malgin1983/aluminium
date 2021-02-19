@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node index.js NODE_ENV=development PORT 3000",
     "dev": "nodemon index.js NODE_ENV=development PORT 3000",
-    "prod": "pm2 start index.js PORT 80 NODE_ENV=production"
+    "prod": "pm2 start index.js"
   },
   "keywords": [
     "lesson",
